@@ -10,14 +10,13 @@ public class TesteReferencias {
         ControleBonificacao controle = new ControleBonificacao();
 
 
-        Funcionario f1 = new Funcionario();
-        f1.setSalario(300.0);
+
+
 
 
         EditorVideo ev = new EditorVideo();
         ev.setSalario(200.0);
-
-        controle.registra(f1);
+        
         controle.registra(g1);
         controle.registra(ev);
 
